@@ -1,5 +1,5 @@
 {
-  "name": "etcd-result-objectify",
+  "name": "@npm/etcd-result-objectify",
   "version": "1.0.0",
   "description": "Objectify the results of a recursive etcd query",
   "main": "index.js",

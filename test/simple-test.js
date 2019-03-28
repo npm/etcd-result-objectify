@@ -24,6 +24,10 @@ var testNode = {
     ],
     "modifiedIndex": 53,
     "createdIndex": 53
+  },
+  {
+    "key": "/registrations/beep",
+    dir: true
   }
   ],
   "modifiedIndex": 35,
@@ -34,5 +38,6 @@ assert.deepEqual(etcdResultObjectify(testNode), {
   foo: 'bar',
   zar: {
     far: 'bar'
-  }
+  },
+  beep: {}
 })
